@@ -3,7 +3,7 @@
 
 A full-stack **Application Tracking System (ATS)** built using the **MERN stack** that helps organizations manage job postings and track candidate applications efficiently.
 
-## 📌 Overview
+## Overview
 This project digitizes the hiring process by allowing employers to post jobs, candidates to apply, and recruiters to track applications through different stages.  
 It supports **role-based access** to ensure secure and organized workflows.
 
