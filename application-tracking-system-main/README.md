@@ -1,28 +1,56 @@
 
-# Application Tracking System
+# MERN Application Tracking System (ATS)
 
-This project is a fully functional Applicant Tracking System (ATS) that manages job postings, receives applications, and creates a hiring workflow for these applications. It is built using the MERN stack: MongoDB, Express, React, and Node.js.
+A full-stack **Application Tracking System (ATS)** built using the **MERN stack** that helps organizations manage job postings and track candidate applications efficiently.
+
+## 📌 Overview
+This project digitizes the hiring process by allowing employers to post jobs, candidates to apply, and recruiters to track applications through different stages.  
+It supports **role-based access** to ensure secure and organized workflows.
+
+
 ## Features
 
-- User account creation and login with role-based access
-- Job posting creation and management
-- Application submission and tracking
-- Multiple form checks for candidates
-- Coordinator and recruiter dashboards for managing job postings and applications
-## Screenshots
+- Role-based authentication (Candidate, Recruiter, Employer, Coordinator)
+- Job posting and job management
+- Candidate job application tracking
+- Recruiter dashboard to review and update application status
+- Secure authentication using JWT
+- Responsive UI
 
-![App Screenshot](https://github.com/nikhilmalakar/application-tracking-system/blob/main/Screenshots/01_Homepage.png)
-![App Screenshot](https://github.com/nikhilmalakar/application-tracking-system/blob/main/Screenshots/04_Create_Job_Post_R1_form.png)
-![App Screenshot](https://github.com/nikhilmalakar/application-tracking-system/blob/main/Screenshots/12_Job_Apply.png)
-![App Screenshot](https://github.com/nikhilmalakar/application-tracking-system/blob/main/Screenshots/11_All_job_listings.png)
+## 🛠️ Tech Stack
+**Frontend**
+- React
+- Redux
+- Tailwind CSS
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB (Mongoose)
+
+**Authentication**
+- JSON Web Tokens (JWT)
+
+---
+
+## ⚙️ How It Works
+1. Employers post job openings  
+2. Candidates register and apply for jobs  
+3. Recruiters review applications  
+4. Application status is updated (Applied → Shortlisted → Selected / Rejected)  
+5. Data is stored and managed securely in MongoDB  
+
+---
 
 
 ## Installation
 
 Clone the repository:
 ```
-git clone https://github.com/nikhilmalakar/application-tracking-system.git
-cd application-tracking-system
+git clone https://github.com/Akshhat1/mern-application-tracking-system.git
+cd mern-application-tracking-system
 ```
 Install server dependencies:
 ```
@@ -82,16 +110,6 @@ The task is to design an Applicant Tracking System (ATS) that manages job postin
 - User account management with role-based access.
 - Basic security practices.
 
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express, Mongoose
-
-**Database:** MongoDB
 
 
-## Authors
-
-- [@nikhilmalakar](https://github.com/nikhilmalakar)
 
